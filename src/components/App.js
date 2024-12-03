@@ -26,37 +26,23 @@ function App() {
     setMovies((prevMovies) => prevMovies.filter((movie) => movie.id !== id));
   };
 
-  // Inline style for the app
   const appStyle = {
-    backgroundColor: "#6a1b9a", // Purple background
-    color: "white", // White text
-    fontFamily: "Arial, sans-serif",
+    backgroundColor: "#6a1b9a",
+    color: "white",
+    fontFamily: "Poppins, sans-serif",
     minHeight: "100vh",
-    padding: "20px",
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
+    justifyContent: "center", 
+    padding: "20px",
   };
 
   const headerStyle = {
     textAlign: "center",
-    fontSize: "2.5rem",
+    fontSize: "3rem", // Larger font size
     marginBottom: "20px",
-  };
-
-  const buttonStyle = {
-    padding: "10px 20px",
-    backgroundColor: "#ab47bc", // Light purple
-    color: "white",
-    border: "none",
-    borderRadius: "5px",
-    cursor: "pointer",
-    fontSize: "1rem",
-    transition: "background-color 0.3s",
-  };
-
-  const buttonHoverStyle = {
-    backgroundColor: "#8e24aa", // Darker purple on hover
+    fontFamily: "Poppins, sans-serif",
   };
 
   return (

@@ -6,10 +6,11 @@ export default function Movie({ movie, onToggleWatched, onDeleteMovie }) {
     justifyContent: "space-between",
     alignItems: "center",
     marginBottom: "15px",
-    padding: "10px",
-    backgroundColor: "#9c4dcc", 
-    borderRadius: "5px",
-    width: "80%",
+    padding: "15px", 
+    backgroundColor: "#9c4dcc",
+    borderRadius: "10px",
+    width: "80%", 
+    maxWidth: "500px", 
   };
 
   const titleStyle = {
@@ -18,11 +19,11 @@ export default function Movie({ movie, onToggleWatched, onDeleteMovie }) {
   };
 
   const buttonStyle = {
-    padding: "5px 10px",
-    backgroundColor: "#8e24aa", 
+    padding: "10px 15px",
+    backgroundColor: "#8e24aa",
     color: "white",
     border: "none",
-    borderRadius: "5px",
+    borderRadius: "8px",
     cursor: "pointer",
   };
 
